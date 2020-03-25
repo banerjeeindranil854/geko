@@ -1,0 +1,1 @@
+%{DATESTAMP:logtime}\s*%{DATA:thread}\s*%{LOGLEVEL:logLevel}\s*\s*%{JAVACLASS:classname}\s*-\s*(?<logMessage>(.|\r|\n)*)
